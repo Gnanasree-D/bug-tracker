@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+                sh 'echo "Hello world"'
+                sh 'echo date'
+                sh 'echo "Smmmmmile:)"'
+                sh 'echo success'
+                sh 'echo commit'
+            }
+        }
+    }
+}
